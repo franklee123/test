@@ -12,7 +12,7 @@
 </form>	
 
 <form action="/example/test/" method="GET" id="back">	
-	 	<button id="bt" type="submit">ªð¦^</button>
+	 	<button id="bt" type="submit">è¿”å›ž</button>
 	</form>
 
 </body>
