@@ -11,7 +11,7 @@ ID:${id}<br>
 NAME:${name}<br> 
 <form action="/example/search" method="POST" id="back">
 		<div>
-			<p><button id="bt" type="submit">ªð¦^</button></p>
+			<p><button id="bt" type="submit">è¿”å›ž</button></p>
 		</div>	
 </form>			
 </body>
