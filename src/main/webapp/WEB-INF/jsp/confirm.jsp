@@ -13,7 +13,7 @@
 		NAME:${name}<br>
 		<input type="hidden" name="id" value="${id}">
 		<input type="hidden" name="name" value="${name}">
-		<button type="submit" value="submit">½T»{</button>
+		<button type="submit" value="submit">è¿”å›ž{</button>
 </form>
 </body>
 </html>
