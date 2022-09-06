@@ -10,7 +10,7 @@
 <form action="/example/exUpdate" method="POST">
 	 	<p>ID:</p><input type="text" readonly="readonly" name="id" value="${id}" required>
 	 	<p>NAME:</p><input type="text" name="name" value="${name}" required><br><br>
-	 	<button  type="submit" value="update">½T»{­×§ï</button>
+	 	<button  type="submit" value="update"ç¢ºèªä¿®æ”¹</button>
 	</form>
 </body>
 </html>
