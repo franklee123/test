@@ -13,13 +13,13 @@
 		<input type='hidden' id='act' name='act' value='add'> 
 		ID:<input type='text' id='id' name='id'><br> 
 		NAME:<input type='text' name='name'><br>
-		<button type="submit" value="submit">·s¼W</button>	
+		<button type="submit" value="submit">æ–°å¢ž</button>	
 </form>
 
 <form style="margin:0px;display:inline;" id='testform' action="/example/search" method="POST">
 		<input type="hidden" name="id" value="${id}">
 		<input type="hidden" name="name" value="${name}">
-		<button type="submit" value="submit">¬d¸ß</button>	
+		<button type="submit" value="submit">æŸ¥è©¢</button>	
 </form>
 
 </body>
