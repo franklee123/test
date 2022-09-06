@@ -33,7 +33,7 @@ public class ExampleController {
 	@PostMapping("/confirm")
     public String confirm(@RequestParam Map<String, Object> a,Map<String, Object>model){
 		log.info("confirm");
-		this.message="確定要新增嗎";
+		this.message="確定要新增嗎?";
 		model.put("message", this.message);
 		model.put("id", a.get("id"));
 		model.put("name", a.get("name"));
@@ -43,7 +43,7 @@ public class ExampleController {
 	@PostMapping("/result")
 	public String saveUser(@RequestParam Map<String, Object> a, Map<String, Object> model) {
 		log.info("result");
-		this.message = "成功";
+		this.message = "新增成功";
 		User tx = new User((String) a.get("id"), (String) a.get("name"));	
 		examS.createUser(tx);
 		List<User> list = examS.getUserList();
