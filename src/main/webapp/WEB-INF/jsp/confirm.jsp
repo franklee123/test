@@ -13,7 +13,7 @@
 		NAME:${name}<br>
 		<input type="hidden" name="id" value="${id}">
 		<input type="hidden" name="name" value="${name}">
-		<button type="submit" value="submit">返回{</button>
+		<button type="submit" value="submit">確認</button>
 </form>
 </body>
 </html>
