@@ -87,4 +87,14 @@ public class ExampleController {
 		model.put("list", list);
 		return "search";
 }
+	@PostMapping("/search1")
+	public String search1(@RequestParam Map<String, Object> a, Map<String, Object> model) {
+		log.info("search1");
+		log.info((String)a.get("id"));
+		log.info((String)a.get("name"));	
+		User list = examS.getUserById((String)a.get("id"));
+		model.put("id", list.getId());
+		model.put("name", list.getName());
+		return "search1";
+}
 }
